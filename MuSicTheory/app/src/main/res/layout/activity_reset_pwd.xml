@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reset_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/statusbar_white"
+    android:orientation="vertical"
+    tools:context=".ui.activity.RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@color/statusbar_white">
+
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16px"
+            android:gravity="center">
+
+            <ImageView
+
+                android:id="@+id/imageView3"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:src="@drawable/header_back_black" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80px"
+        android:layout_marginTop="110px">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/reset_password"
+            android:textColor="@color/login_reg_font"
+            android:textSize="64px" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="106px"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60px"
+            android:maxLines="1"
+            android:text="@string/email"
+            android:textColor="@color/login_reg_email"
+            android:textSize="34px" />
+        <!--     android:imeOptions="actionNext"
+              android:singleLine="true"
+              android:maxLines="1"
+              android:nextFocusForward="@+id/et_express_receiver_address"-->
+        <EditText
+            android:id="@+id/et_reg_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90px"
+            android:background="@string/no_edit_bg"
+            android:hint="@string/input_reg_email"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/login_reg_email"
+            android:textColorHint="@color/login_reg_email_hint"
+            android:textSize="32px" />
+
+    </LinearLayout>
+
+    <View
+        style="@style/DividerHorizontal"
+        android:layout_marginLeft="46px"
+        android:layout_marginRight="46px" />
+
+    <Button
+        android:id="@+id/bt_next_go"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginLeft="46px"
+        android:layout_marginRight="46px"
+        android:layout_marginTop="64px"
+        android:background="@drawable/btn_login"
+        android:text="@string/next_go"
+        android:textColor="@drawable/button_font" />
+
+
+</LinearLayout>
+

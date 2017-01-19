@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_change_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/statusbar_white"
+    android:orientation="vertical"
+    tools:context=".ui.activity.LoginActivity">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@color/statusbar_blue">
+
+        <LinearLayout
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16px"
+            android:gravity="center">
+
+            <ImageView
+
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:src="@drawable/header_back" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/wl_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/change_pwd"
+            android:textColor="@color/colorwhite"
+            android:textSize="36px" />
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/et_pre_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="106px"
+        android:layout_marginLeft="58px"
+        android:layout_marginTop="24px"
+        android:background="@null"
+        android:hint="@string/input_pre_password"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:nextFocusForward="@+id/et_express_receiver_address"
+        android:singleLine="true"
+        android:textColor="@color/login_reg_email"
+        android:textColorHint="@color/login_reg_email_hint"
+        android:textSize="32px" />
+
+    <!--     android:imeOptions="actionNext"
+          android:singleLine="true"
+          android:maxLines="1"
+          android:nextFocusForward="@+id/et_express_receiver_address"-->
+    <View
+        style="@style/DividerHorizontal"
+        android:layout_marginLeft="46px"
+        android:layout_marginRight="46px" />
+
+
+    <EditText
+        android:id="@+id/et_new_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="106px"
+        android:layout_marginLeft="58px"
+        android:layout_marginTop="12px"
+        android:background="@null"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:hint="@string/please_set_new_pwd"
+        android:textColor="#333333"
+        android:textColorHint="#aaaaaa"
+        android:textSize="32px" />
+
+
+    <View
+
+        style="@style/DividerHorizontal"
+        android:layout_marginLeft="46px"
+        android:layout_marginRight="46px" />
+
+    <Button
+        android:id="@+id/commit"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginLeft="46px"
+        android:layout_marginRight="46px"
+        android:layout_marginTop="40px"
+        android:background="@drawable/btn_login"
+        android:text="@string/commit"
+        android:textColor="@drawable/button_font" />
+
+
+</LinearLayout>
+

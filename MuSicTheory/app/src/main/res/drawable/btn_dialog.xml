@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    //定义当响应点击事件 没有点击
+    <item android:state_enabled="true" android:state_pressed="false">
+        <shape>
+            <corners android:radius="8dp" />
+            <solid android:color="#ffffff" />
+        </shape>
+    </item>
+
+    <item android:state_enabled="false">
+        <shape>
+            <corners android:radius="8dp" />
+            <solid android:color="#ffffff" />
+        </shape>
+    </item>
+
+    //点击后
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape>
+            <corners android:radius="8dp" />
+            <solid android:color="#ebedef" />
+        </shape>
+    </item>
+</selector>

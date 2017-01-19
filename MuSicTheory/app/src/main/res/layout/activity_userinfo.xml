@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/user_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/statusbar_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@color/statusbar_blue">
+
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16px"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:src="@drawable/header_back" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/my"
+            android:textColor="#ffffff"
+            android:textSize="36px"
+
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170px"
+        android:background="#f8f9fa"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_email_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/user_email_name"
+            android:textColor="@color/login_reg_email"
+            android:textSize="36px" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_verify"
+        android:layout_width="match_parent"
+        android:layout_height="116px"
+        android:background="@drawable/btn_user"
+        android:clickable="true">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="36px"
+            android:text="@string/reg_ckeck"
+            android:textColor="@color/login_reg_email"
+
+            android:textSize="30px" />
+
+        <LinearLayout
+            android:id="@+id/ll_verify"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20px"
+                android:gravity="center"
+                android:text="@string/no_verify"
+                android:textColor="@color/download_home"
+                android:textSize="28px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="36px"
+                android:text="@string/go_verify"
+                android:textColor="@color/font_text_blue"
+                android:textSize="28px" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        style="@style/DividerHorizontal"
+        android:layout_marginLeft="36px"
+        android:layout_marginRight="36px" />
+
+    <RelativeLayout
+        android:id="@+id/changge_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="116px"
+        android:background="@drawable/btn_user"
+        android:clickable="true">
+
+
+        <ImageView
+
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="30px"
+            android:src="@drawable/icon_next_arrow" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="36px"
+            android:layout_marginStart="20dp"
+            android:text="@string/change_pwd"
+            android:textColor="@color/login_reg_email"
+            android:textSize="30px" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_users"
+        android:layout_width="match_parent"
+        android:layout_height="116px"
+        android:layout_marginTop="30px"
+        android:background="@drawable/btn_user"
+        android:clickable="true">
+
+
+        <ImageView
+
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="30px"
+            android:src="@drawable/icon_next_arrow" />
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="36px"
+            android:layout_marginStart="20dp"
+            android:text="@string/about_us"
+            android:textColor="@color/login_reg_email"
+            android:textSize="30px" />
+
+
+    </RelativeLayout>
+
+    <View
+        style="@style/DividerHorizontal"
+        android:layout_marginLeft="36px"
+        android:layout_marginRight="36px" />
+
+    <RelativeLayout
+        android:id="@+id/rl_update"
+        android:layout_width="match_parent"
+        android:layout_height="116px"
+        android:background="@drawable/btn_user"
+        android:clickable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="36px"
+            android:text="@string/check_update"
+            android:textColor="@color/login_reg_email"
+            android:textSize="30px" />
+
+        <ImageView
+
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="30px"
+            android:src="@drawable/icon_next_arrow" />
+
+
+    </RelativeLayout>
+
+    <View
+
+        style="@style/DividerHorizontal"
+
+        android:layout_marginLeft="36px"
+        android:layout_marginRight="36px" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_love_go"
+        android:layout_width="match_parent"
+        android:layout_height="116px"
+        android:background="@drawable/btn_user"
+        android:clickable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="36px"
+
+            android:text="@string/like_us_score_bonus"
+            android:textColor="@color/login_reg_email"
+            android:textSize="30px" />
+
+        <ImageView
+
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="30px"
+            android:src="@drawable/icon_next_arrow" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/statusbar_white"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/bt_logout"
+            android:layout_width="match_parent"
+            android:layout_height="116px"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_user"
+            android:text="@string/log_out"
+            android:textColor="@color/font_text_blue"
+            android:textSize="30px" />
+
+    </RelativeLayout>
+
+</LinearLayout>

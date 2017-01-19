@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+        <style name="welcomeTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+                <item name="android:textColorPrimary">@android:color/white</item>
+                <item name="android:windowTranslucentStatus" tools:targetApi="19">true</item>
+                <item name="android:windowContentOverlay">@null</item>
+                <item name="windowActionBar">false</item>
+                <item name="android:windowNoTitle">true</item>
+                <item name="android:windowBackground">@drawable/welcome</item>
+        </style>
+</resources>

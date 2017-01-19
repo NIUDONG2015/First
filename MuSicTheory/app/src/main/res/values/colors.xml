@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303f9f</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorwhite">#FFFFFF</color>
+    <color name="statusbar_blue">#1b82d2</color>
+    <color name="statusbar_white">#f8f9fa</color>
+    <color name="font_text_blue">#1b82d2</color>
+    <color name="longin_bgclik">#1284d6</color>
+    <color name="longin_bgnom">#108ee9</color>
+    <color name="font_text_white_nom">#79b5f0</color>
+    <color name="login_reg_font">#000000</color>
+    <color name="login_reg_email">#333333</color>
+    <color name="login_reg_email_hint">#aaaaaa</color>
+    <color name="login_reg_view_color">#dedfe0</color>
+    <color name="reg_is_ni_ok">#777777</color>
+    <color name="download_home">#999999</color>
+    <color name="dialog_click">#ebedef</color>
+</resources>
